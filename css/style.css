@@ -1,5 +1,7 @@
 html{
     height: 100%;
+    animation: appear 2s;
+
 }
 body{
     margin: 0;
@@ -8,7 +10,7 @@ body{
     background-color:  #3a9c7c;
     font-family: 'Source Code Pro', monospace;
     /*overflow-x: hidden;*/
-    animation: bgcol 4s;
+    
     height: 100%;
 
 }
@@ -50,7 +52,6 @@ p{
     font-size: 144%;
     margin-top: 17%;
     text-align: center;
-    'Montserrat', sans-serif;
 }
 
 
@@ -108,6 +109,13 @@ hr{
     width: 30%;
     left: 68.1%;
 }
+.contact{
+    position: fixed;
+    z-index: 1001;
+    height: 7%;
+    bottom:1%;
+    right: 2%;
+}
 .mid{
     position: relative;
     text-align: center;
@@ -156,6 +164,7 @@ hr{
 }
 .work-sub{
     margin-top: 0;
+    text-decoration: none;
 }
 
 #profile{
@@ -247,3 +256,14 @@ hr{
     }
 }*/
 
+@keyframes appear{
+    from{
+        opacity: 20%;
+        
+
+    }
+    to{
+        
+        opacity: 100%;
+    }  
+}
