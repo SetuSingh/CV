@@ -44,7 +44,7 @@ H1:hover{
 
 }
 p{
-    display: inline-block;
+    
     position: absolute;
     width:100%;
     font-size: 144%;
@@ -57,6 +57,7 @@ p{
 H2{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    
 }
 
 H3{
@@ -85,6 +86,28 @@ hr{
 
     
 }
+.bot{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height:62.5%;
+
+}
+.bot-in-1{
+    position: absolute;
+    width: 30%;
+    left: 1.5%;
+}
+.bot-in-2{
+    position: absolute;
+    width: 30%;
+    left: 34.8%;
+}
+.bot-in-3{
+    position: absolute;
+    width: 30%;
+    left: 68.1%;
+}
 .mid{
     position: relative;
     text-align: center;
@@ -109,6 +132,32 @@ hr{
     font-family: 'Source Code Pro', sans-serif;
     /*font-size: 2.6em;*/
 }
+.work{
+    
+    text-shadow:-5px 3px 5px #26624e ;
+    font-size:3em;
+    margin:0;
+}
+.work-image{
+    height: 80%;
+    margin: 5% auto 5%;
+    border-radius: 10%;
+    box-shadow: -10px 9px 10px #26624e;
+    opacity: 60%;
+    transition: 1s;
+}
+.work-image:hover{
+    height: 90%;
+    margin: 5% auto 5%;
+    border-radius: 10%;
+    box-shadow: -10px 9px 10px #26624e;
+    opacity: 100%;
+    transition: 1s;
+}
+.work-sub{
+    margin-top: 0;
+}
+
 #profile{
     border-radius: 10%;
     box-shadow: -10px -9px 10px #26624e;
