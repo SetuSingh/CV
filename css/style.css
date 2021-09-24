@@ -1,11 +1,19 @@
+html{
+    height: 100%;
+}
 body{
     margin: 0;
-    text-align: center;
+    
     background-position: center;
     background-color:  #3a9c7c;
     font-family: 'Source Code Pro', monospace;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     animation: bgcol 4s;
+    height: 100%;
+
+}
+div{
+    height: 100%;
 }
 
 
@@ -13,11 +21,12 @@ body{
 H1{
     display: inline-block;
     position: absolute;
-    width:20%;
+    width:23%;
     margin: 10% 40% 0 ;
     font-family: 'Bonheur Royale', cursive;
     font-size: 744%;
     z-index: 1000;
+    text-align: center;
   
 
 }
@@ -25,12 +34,13 @@ H1{
 H1:hover{
     display: inline-block;
     position: absolute;
-    width:20%;
+    width:23%;
     margin: 11% 40% 0 ;
     font-family: 'Bonheur Royale', cursive;
     font-size: 744%;
     color: #489F7C;
     transition: .6s;
+    text-align: center;
 
 }
 p{
@@ -38,33 +48,35 @@ p{
     position: absolute;
     width:100%;
     font-size: 144%;
-    margin-top: 19%;
+    margin-top: 17%;
+    text-align: center;
+    'Montserrat', sans-serif;
 }
 
 
 H2{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 H3{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+hr{
+    border-color:#5d3f34;
+    background-color: none;
+    border-style: dotted;
+    width: 20%;
+    border-bottom: none;
+    border-width:19px;
+    
 }
 .top{
     position: relative;
    
 }
 
-.bottom{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-}
-.mid{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-
-}
 
 .bg{
     width: 100%;
@@ -73,7 +85,53 @@ H3{
 
     
 }
-.bg1{
+.mid{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height:62.5%;
+
+}
+.profile-text{
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    margin-top: 1.6%;
+    font-size: 2.6em;
+}
+.profile-p-text{
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    margin-top: 8.6%;
+    font-family: 'Source Code Pro', sans-serif;
+    /*font-size: 2.6em;*/
+}
+#profile{
+    border-radius: 10%;
+    box-shadow: -10px -9px 10px #26624e;
+    position: absolute;
+    transform: rotate(-90deg);
+    height: 95%;
+    width: 29.5%;
+    right: 54%;
+    top: 4.4%;
+    transition: 1s;
+}
+#profile:hover{
+    border-radius: 10%;
+    box-shadow:10px 15px 10px #26624e;
+    position: absolute;
+    transform: rotate(0deg);
+    height: 95%;
+    width: 29.5%;
+    right: 54%;
+    top: 4.4%;
+    transition: 1s;
+}
+/*.bg1{
     animation: bgup1 2s;
     width: 100%;
     height: 100%;
@@ -92,7 +150,7 @@ H3{
     
     bottom: 50.6%;
     left: -4px;
-}
+}*/
 
 .bird{
     position: absolute;
@@ -108,7 +166,7 @@ H3{
 }
 
 
-
+/*
 @keyframes bgup1 {
     from {
         width: 100%;
@@ -138,4 +196,5 @@ H3{
         
 
     }
-}
+}*/
+
